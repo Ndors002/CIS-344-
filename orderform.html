@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wine Order Form</title>
+  </head>
+  <body>
+    <h1>Place Your Wine Order</h1>
+    <form action="order.process.php" method="post">
+      <p>Red Wine (bottles): <input type="text" name="redwineqty" size="3" maxlength="3"></p>
+      <p>White Wine (bottles): <input type="text" name="whitewineqty" size="3" maxlength="3"></p>
+      <p>Specialty Wine (bottles): <input type="text" name="specialtyineqty" size="3" maxlength="3"></p>
+      <p>Shipping Address: <textarea name="address" rows="4" cols="40"></textarea></p>
+      <p><input type="submit" value="Submit Order"></p>
+    </form>
+  </body>
+</html>
